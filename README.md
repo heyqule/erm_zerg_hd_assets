@@ -1,7 +1,7 @@
 # ERM Zerg HD
 ERM Zerg HD graphic assets. 
 
-#### PLEASE DO NOT COPY THESE ASSETS TO YOUR OWN MODS. Please use mod dependencies if you plan to use these assets. HD Asset duplication is bad for performance!  
+#### PLEASE DO NOT COPY THESE ASSETS TO YOUR OWN MODS. Please use mod dependencies if you plan to use these assets. HD asset duplication is bad for game performance!  
 
 ##### Licenses
 Lua code files are licensed under GNU LGPLv3
