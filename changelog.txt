@@ -1,0 +1,10 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 2023-07-??
+
+  Features:
+    - Added SC Remaster Graphics Asset Pack
+    - Provide re-usability for other mods.
+    - Sound class, allow easy integration of Zerg sounds
+    - AnimationDB class, allow easy integration of Zerg animations
+    - Detailed tutorials will be provided on github later.
