@@ -23,21 +23,13 @@ However, Starcraft graphic and sound assets are properties of Blizzard Entertain
   ]
 }
 ```
-2. Using assets within your mod
+2. Using assets within your mod, Here is a list of possible animations [animation_api_calls.lua](https://github.com/heyqule/erm_zerg_hd_assets/blob/main/animation_api_calls.lua)
 ```lua
 --- Include graphics in your mods file
 local ZergAnimation = require('__erm_zerg_hd_assets__/animation_db')
 
 --- Entity_Type, Name, Animation_Type, Unit_Scale(optional)
 unit['animations'] = ZergAnimation.get_layer_animation('unit','zergling','run')
-
--- Entity_Type: buildings, projectiles, units
--- Animation_Type: 
---
---    buildings = { run }
---    units = {run, attack, corpse}
---    projectiles = {attack_attachment, projectile, explosion}
---
 
 -- Single layer animation
 projectile['animation'] = ZergAnimation.get_single_animation('projectiles','spore1','projectile')
@@ -54,6 +46,7 @@ for index, _ in pairs(animation['layer']) do
     animation['layer'][index]['unit_scale'] = 5    
 end
 projectile['animation'] = animation
+
 
 --- Include Sound, see the class for details 
 local ZergSound = require('__erm_zerg_hd_assets__/sound')
