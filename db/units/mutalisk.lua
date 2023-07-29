@@ -7,10 +7,10 @@
 return {
     run = {
         main = {
-            filename = "__erm_zerg_hd_assets__/graphics/entity/units/hydralisk/hydralisk-attack.png",
-            width = 258,
-            height = 300,
-            frame_count = 6,
+            filename = "__erm_zerg_hd_assets__/graphics/entity/units/mutalisk/mutalisk-run.png",
+            width = 520,
+            height = 512,
+            frame_count = 5,
             axially_symmetrical = false,
             direction_count = 16,
             scale = 0.4,
