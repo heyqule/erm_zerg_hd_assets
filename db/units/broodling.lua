@@ -14,7 +14,7 @@ return {
             axially_symmetrical = false,
             direction_count = 16,
             scale = 0.3,
-            animation_speed = 0.6,
+            animation_speed = 0.5,
         },
         shadow = {
             shift = { 0.2, 0 }
@@ -29,7 +29,7 @@ return {
             axially_symmetrical = false,
             direction_count = 16,
             scale = 0.3,
-            animation_speed = 0.6,
+            animation_speed = 0.5,
         },
         shadow = {
             shift = { 0.2, 0 }
