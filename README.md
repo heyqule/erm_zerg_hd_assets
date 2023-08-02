@@ -52,6 +52,12 @@ projectile['animation'] = animation
 local ZergSound = require('__erm_zerg_hd_assets__/sound')
 unit['dying_sound'] = ZergSound.enemy_death('zergling', 1.0)
 
+--- What if you don't like my animation setup.
+--- you can link the assets directly to your animation and then define your own parameters.
+{
+    filename = '__erm_zerg_hd_assets__/graphics/entity/units/broodling/broodling-attack.png'
+}
+
 
 --- Use the creep on other buildings
 building['spawn_decoration'] = {

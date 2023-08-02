@@ -123,7 +123,6 @@ end
 function AnimationDB.get_team_mask_animation(entity_type, name, animation_type, unit_scale)
     if AnimationDB.data[entity_type][name][animation_type]['team'] then
         local animation = util.table.deepcopy(AnimationDB.data[entity_type][name][animation_type]['team'])
-        animation['apply_runtime_tint'] = true
         if unit_scale then
             animation.unit_scale = unit_scale
         end
