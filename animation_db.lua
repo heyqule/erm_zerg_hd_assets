@@ -49,7 +49,7 @@ AnimationDB.data = {
         ultralisk = require('db/units/ultralisk'),
         zergling = require('db/units/zergling'),
     },
-    default_team_color = {r=128, g=64, b=0, a=128}
+    default_team_color = {r=96, g=48, b=0, a=166}
     --default_team_color = {r=128, g=64, b=0, a=0}
 }
 
@@ -135,17 +135,32 @@ function AnimationDB.get_team_mask_animation(entity_type, name, animation_type, 
 end
 
 
-function AnimationDB.alter_team_color(data_animation, color)
-    if data_animation['layers'] then
-        for index, animation_node in pairs(data_animation['layers']) do
+function AnimationDB.alter_team_color(animation_data, color)
+    if animation_data['layers'] then
+        for index, animation_node in pairs(animation_data['layers']) do
             if (animation_node.filename and string.find( animation_node.filename, '_teamcolour') ~= nil) or
                (animation_node.filenames and string.find( animation_node.filenames[1], '_teamcolour') ~= nil) then
-                data_animation['layers'][index]['tint'] = color
+                animation_data['layers'][index]['tint'] = color
             end
         end
     end
 
-    return data_animation
+    return animation_data
+end
+
+function AnimationDB.change_animation_speed(animation_data, speed)
+    if animation_data['layers'] then
+        for index, animation_node in pairs(animation_data['layers']) do
+            if (animation_node.filename and string.find( animation_node.filename, '_teamcolour') ~= nil) or
+                    (animation_node.filenames and string.find( animation_node.filenames[1], '_teamcolour') ~= nil) then
+                animation_data['layers'][index]['animation_speed'] = speed
+            end
+        end
+    elseif animation_data['animation_speed'] then
+        animation_data['animation_speed'] = speed
+    end
+
+    return animation_data
 end
 
 return AnimationDB

@@ -7,6 +7,7 @@ Date: 2023-??-??
 
   Changes:
     - Fixed entity from sunker-colony to sunken-colony.
+    - Change decal's render_layer, so they are not hidden under Alien Biomes
 
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.1

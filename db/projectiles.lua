@@ -47,7 +47,6 @@ return {
                 frame_count = 10,
                 width = 168,
                 height = 146,
-                priority = "high",
                 scale = 0.5,
                 animation_speed = 0.5,
                 run_mode = 'forward-then-backward'
@@ -161,12 +160,13 @@ return {
         explosion = {
             main =     {
                 filename = "__erm_zerg_hd_assets__/graphics/entity/projectiles/darkswarm.png",
-                width = 256,
-                height = 256,
+                width = 1060,
+                height = 832,
+                line_length = 5,
                 frame_count = 60,
                 frame_sequence = {1,2,3,4,5,6,7,8,9,10,9,8,7,6,7,8,9,10,9,8,7,6,7,8,9,10,9,8,7,6,7,8,9,10,9,8,7,6,7,8,9,10,9,8,7,6,7,8,9,10,9,8,7,6,5,4,3,2,1},
-                animation_speed = 0.4,
-                scale = 2
+                animation_speed = 0.5,
+                scale = 0.5
             }
         }
     },

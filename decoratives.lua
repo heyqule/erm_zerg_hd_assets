@@ -6,6 +6,11 @@
 
 local Sprites = require('__stdlib__/stdlib/data/modules/sprites')
 
+local final_render_layer = 'decals'
+if mods['alien-biomes'] then
+    final_render_layer = "lower-radius-visualization"
+end
+
 data:extend({
     --- Creep
     {
@@ -14,9 +19,8 @@ data:extend({
         order = "b[decorative]-b[creep-decal]",
         collision_box = { { -6, -4 }, { 6, 4 } },
         collision_mask = { "water-tile", "colliding-with-tiles-only" },
-        render_layer = "decals",
+        render_layer = final_render_layer,
         tile_layer = 58,
-        decal_overdraw_priority = 500,
         pictures = {
             {
                 filename = "__erm_zerg_hd_assets__/graphics/decorative/creep-decal/creep-decal-00.png",
@@ -90,9 +94,8 @@ data:extend({
         order = "b[decorative]-b[creep-decal]",
         collision_box = { { -6, -4 }, { 6, 4 } },
         collision_mask = { "water-tile", "colliding-with-tiles-only" },
-        render_layer = "decals",
+        render_layer = final_render_layer,
         tile_layer = 57,
-        decal_overdraw_priority = 100,
         pictures = {
             {
                 filename = "__erm_zerg_hd_assets__/graphics/decorative/creep-decal/creep-decal-t-00.png",
