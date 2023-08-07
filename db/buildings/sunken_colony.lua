@@ -7,7 +7,7 @@
 return {
     run = {
         main =              {
-            filename = "__erm_zerg_hd_assets__/graphics/entity/buildings/sunker_colony/sunker_colony.png",
+            filename = "__erm_zerg_hd_assets__/graphics/entity/buildings/sunken_colony/sunken_colony.png",
             width = 521,
             height = 503,
             frame_count = 3,
@@ -21,7 +21,7 @@ return {
     },
     attack = {
         main =             {
-            filename = "__erm_zerg_hd_assets__/graphics/entity/buildings/sunker_colony/sunker_colony_attack.png",
+            filename = "__erm_zerg_hd_assets__/graphics/entity/buildings/sunken_colony/sunken_colony_attack.png",
             width = 521,
             height = 503,
             frame_count = 11,

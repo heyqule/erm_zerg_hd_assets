@@ -27,7 +27,7 @@ AnimationDB.data = {
         spawning_pool = require('db/buildings/spawning_pool'),
         spire = require('db/buildings/spire'),
         spore_colony = require('db/buildings/spore_colony'),
-        sunker_colony = require('db/buildings/sunker_colony'),
+        sunken_colony = require('db/buildings/sunken_colony'),
         ultralisk_cavern = require('db/buildings/ultralisk_cavern'),
     },
     death = require('db/death'),

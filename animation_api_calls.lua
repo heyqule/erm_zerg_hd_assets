@@ -47,8 +47,8 @@ AnimationDB.get_layered_animations('buildings', 'queen_nest', 'run')
 AnimationDB.get_layered_animations('buildings', 'spawning_pool', 'run')
 AnimationDB.get_layered_animations('buildings', 'spire', 'attack')
 AnimationDB.get_layered_animations('buildings', 'spore_colony', 'run')
-AnimationDB.get_layered_animations('buildings', 'sunker_colony', 'run')
-AnimationDB.get_layered_animations('buildings', 'sunker_colony', 'attack')
+AnimationDB.get_layered_animations('buildings', 'sunken_colony', 'run')
+AnimationDB.get_layered_animations('buildings', 'sunken_colony', 'attack')
 AnimationDB.get_layered_animations('buildings', 'ultralist_cavern', 'run')
 
 
