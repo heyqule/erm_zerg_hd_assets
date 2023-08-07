@@ -20,7 +20,7 @@ return {
             shift = {0.2, 0}
         },
         team =             {
-            filename = "__erm_zerg_hd_assets__/graphics/entity/buildings/overmind/overmind_shell.png",
+            filename = "__erm_zerg_hd_assets__/graphics/entity/buildings/overmind/overmind_shell_teamcolour.png",
             width = 909,
             height = 664,
             frame_count = 4,

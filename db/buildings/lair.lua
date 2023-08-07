@@ -20,7 +20,7 @@ return {
             shift = {0.2, 0}
         },
         team =             {
-            filename = "__erm_zerg_hd_assets__/graphics/entity/buildings/lair/lair.png",
+            filename = "__erm_zerg_hd_assets__/graphics/entity/buildings/lair/lair_teamcolour.png",
             width = 786,
             height = 655,
             frame_count = 5,

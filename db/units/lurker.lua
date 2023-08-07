@@ -20,7 +20,7 @@ return {
             shift = { 0.2, 0 }
         },
         team =             {
-            filename = "__erm_zerg_hd_assets__/graphics/entity/units/lurker/lurker-run.png",
+            filename = "__erm_zerg_hd_assets__/graphics/entity/units/lurker/lurker-run_teamcolour.png",
             width = 512,
             height = 485,
             frame_count = 7,
@@ -45,7 +45,7 @@ return {
             shift = { 0.2, 0 }
         },
         team =             {
-            filename = "__erm_zerg_hd_assets__/graphics/entity/units/lurker/lurker-attack.png",
+            filename = "__erm_zerg_hd_assets__/graphics/entity/units/lurker/lurker-attack_teamcolour.png",
             width = 512,
             height = 485,
             frame_count = 23,
