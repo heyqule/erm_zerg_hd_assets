@@ -6,18 +6,38 @@
 
 return {
     run = {
-        main =            {
-            filename = "__erm_zerg_hd_assets__/graphics/entity/buildings/infested_cmd/infested_cmd.png",
-            width = 527,
-            height = 648,
-            frame_count = 3,
-            animation_speed = 0.2,
+        main = {
+            filename = "__erm_zerg_hd_assets__/graphics/entity/buildings/infested_cmd/command_centre.png",
+            width = 524,
+            height = 646,
+            frame_count = 6,
             direction_count = 1,
-            run_mode = "forward-then-backward",
+            animation_speed = 0.18,
             scale = 0.5
         },
         shadow = {
             shift = {0.2, 0}
+        },
+        light =  {
+            filename = "__erm_zerg_hd_assets__/graphics/entity/buildings/infested_cmd/command_centre_mask.png",
+            width = 524,
+            height = 646,
+            frame_count = 6,
+            direction_count = 1,
+            animation_speed = 0.18,
+            scale = 0.5,
+            shift = {0.0, -0.05}
+        },
+        team = {
+            filename = "__erm_zerg_hd_assets__/graphics/entity/buildings/infested_cmd/command_centre_teamcolour.png",
+            flags = { "mask" },
+            width = 524,
+            height = 646,
+            frame_count = 1,
+            repeat_count = 6,
+            direction_count = 1,
+            animation_speed = 0.18,
+            scale = 0.5,
         }
     }
 }

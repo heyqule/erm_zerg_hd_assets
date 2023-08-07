@@ -7,17 +7,39 @@
 return {
     run = {
         main =             {
-            filename = "__erm_zerg_hd_assets__/graphics/entity/units/infested/infested-run.png",
-            width = 190,
-            height = 211,
+            filenames = {
+                "__erm_zerg_hd_assets__/graphics/entity/units/infested/infested-run-0.png",
+                "__erm_zerg_hd_assets__/graphics/entity/units/infested/infested-run-1.png",
+            },
+            width = 298,
+            height = 271,
             frame_count = 8,
+            slice = 8,
+            lines_per_file = 8,
+            line_length = 8,
             axially_symmetrical = false,
             direction_count = 16,
             scale = 0.4,
-            animation_speed = 1,
+            animation_speed = 0.5,
         },
         shadow = {
             shift = { 0.2, 0 }
+        },
+        team = {
+            filenames = {
+                "__erm_zerg_hd_assets__/graphics/entity/units/infested/infested-run_teamcolour-0.png",
+                "__erm_zerg_hd_assets__/graphics/entity/units/infested/infested-run_teamcolour-1.png",
+            },
+            width = 298,
+            height = 271,
+            frame_count = 8,
+            slice = 8,
+            lines_per_file = 8,
+            line_length = 8,
+            axially_symmetrical = false,
+            direction_count = 16,
+            scale = 0.4,
+            animation_speed = 0.5,
         }
     },
     corpse = {

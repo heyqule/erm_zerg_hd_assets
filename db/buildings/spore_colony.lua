@@ -6,17 +6,50 @@
 
 return {
     run = {
-        main =             {
+        main = {
             filename = "__erm_zerg_hd_assets__/graphics/entity/buildings/spore_colony/spore_colony.png",
             run_mode = "forward",
             width = 508,
             height = 515,
-            frame_count = 4,
+            frame_count = 1,
             direction_count = 1,
             scale = 0.5,
         },
         shadow = {
             shift = { 0.25, 0.1 }
+        },
+        team = {
+            filename = "__erm_zerg_hd_assets__/graphics/entity/buildings/spore_colony/spore_colony_teamcolour.png",
+            flags = { "mask" },
+            width = 508,
+            height = 515,
+            frame_count = 1,
+            direction_count = 1,
+            scale = 0.5,
         }
+    },
+    attack = {
+        main =  {
+            filename = "__erm_zerg_hd_assets__/graphics/entity/buildings/spore_colony/spore_colony_attack.png",
+            width = 508,
+            height = 515,
+            frame_count = 4,
+            animation_speed = 0.15,
+            direction_count = 1,
+            scale = 0.5
+        },
+        shadow = {
+            shift = { 0.25, 0.1 }
+        },
+        team =  {
+            filename = "__erm_zerg_hd_assets__/graphics/entity/buildings/spore_colony/spore_colony_teamcolour.png",
+            width = 508,
+            height = 515,
+            frame_count = 1,
+            repeat_count = 4,
+            animation_speed = 0.15,
+            direction_count = 1,
+            scale = 0.5
+        },
     }
 }

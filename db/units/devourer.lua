@@ -19,7 +19,18 @@ return {
         },
         shadow = {
             shift = { 4, 0 }
-        }
+        },
+        team =            {
+            filename = "__erm_zerg_hd_assets__/graphics/entity/units/devourer/devourer-run_teamcolour.png",
+            width = 376,
+            height = 401,
+            frame_count = 5,
+            axially_symmetrical = false,
+            direction_count = 16,
+            scale =  0.375,
+            animation_speed = 0.5,
+            run_mode = 'forward-then-backward'
+        },
     },
     attack = {
         main =             {
@@ -35,7 +46,18 @@ return {
         },
         shadow = {
             shift = { 4, 0 }
-        }
+        },
+        team =            {
+            filename = "__erm_zerg_hd_assets__/graphics/entity/units/devourer/devourer-attack_teamcolour.png",
+            width = 376,
+            height = 401,
+            frame_count = 5,
+            axially_symmetrical = false,
+            direction_count = 16,
+            scale =  0.375,
+            animation_speed = 0.5,
+            run_mode = 'forward-then-backward'
+        },
     },
     corpse = {
         main = {

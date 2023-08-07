@@ -10,7 +10,7 @@ return {
             filename = "__erm_zerg_hd_assets__/graphics/entity/buildings/nyduspit/nyduspit.png",
             width = 515,
             height = 512,
-            frame_count = 4,
+            frame_count = 5,
             animation_speed = 0.2,
             direction_count = 1,
             run_mode = "forward-then-backward",
@@ -18,6 +18,27 @@ return {
         },
         shadow = {
             shift = {0.2, 0}
+        },
+        team =             {
+            filename = "__erm_zerg_hd_assets__/graphics/entity/buildings/nyduspit/nyduspit_teamcolour.png",
+            width = 515,
+            height = 512,
+            frame_count = 1,
+            repeat_count = 10,
+            animation_speed = 0.2,
+            direction_count = 1,
+            scale = 0.5
+        },
+        glow = {
+                filename = "__erm_zerg_hd_assets__/graphics/entity/buildings/nyduspit/nyduspit_mask.png",
+                width = 515,
+                height = 512,
+                frame_count = 5,
+                animation_speed = 0.2,
+                direction_count = 1,
+                run_mode = "forward-then-backward",
+                shift = { 0.0, -0.05 },
+                scale = 0.5
         }
     }
 }

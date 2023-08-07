@@ -10,14 +10,21 @@ return {
             filename = "__erm_zerg_hd_assets__/graphics/entity/buildings/sunken_colony/sunken_colony.png",
             width = 521,
             height = 503,
-            frame_count = 3,
+            frame_count = 1,
             direction_count = 1,
             scale = 0.5,
-            run_mode = "forward-then-backward",
         },
         shadow = {
             shift = {0.2, 0}
-        }
+        },
+        team =              {
+            filename = "__erm_zerg_hd_assets__/graphics/entity/buildings/sunken_colony/sunken_colony_teamcolour.png",
+            width = 521,
+            height = 503,
+            frame_count = 1,
+            direction_count = 1,
+            scale = 0.5,
+        },
     },
     attack = {
         main =             {
@@ -27,7 +34,14 @@ return {
             frame_count = 11,
             direction_count = 3,
             scale = 0.5,
-            run_mode = "forward-then-backward",
-        }
+        },
+        team =              {
+            filename = "__erm_zerg_hd_assets__/graphics/entity/buildings/sunken_colony/sunken_colony_attack_teamcolour.png",
+            width = 521,
+            height = 503,
+            frame_count = 11,
+            direction_count = 1,
+            scale = 0.5,
+        },
     }
 }

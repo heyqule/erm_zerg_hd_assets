@@ -18,6 +18,16 @@ return {
         },
         shadow = {
             shift = { 0.2, 0 }
+        },
+        team =             {
+            filename = "__erm_zerg_hd_assets__/graphics/entity/units/broodling/broodling-run_teamcolour.png",
+            width = 240,
+            height = 220,
+            frame_count = 6,
+            axially_symmetrical = false,
+            direction_count = 16,
+            scale = 0.3,
+            animation_speed = 0.5,
         }
     },
     attack = {

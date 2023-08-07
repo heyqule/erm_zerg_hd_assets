@@ -31,7 +31,6 @@ return {
         explosion = {
             main = {
                 filename = "__erm_zerg_hd_assets__/graphics/entity/projectiles/hydra_acid.png",
-                priority = "extra-high",
                 width = 170,
                 height = 171,
                 line_length = 8,
@@ -57,7 +56,6 @@ return {
         explosion = {
             main =     {
                 filename = "__erm_zerg_hd_assets__/graphics/entity/projectiles/mutalisk_explosion.png",
-                priority = "extra-high",
                 width = 158,
                 height = 263,
                 frame_count = 10,
@@ -70,7 +68,6 @@ return {
         projectile = {
             main =   {
                 filename = "__erm_zerg_hd_assets__/graphics/entity/projectiles/spores_2.png",
-                priority = "extra-high",
                 width = 107,
                 height = 108,
                 frame_count = 4,
@@ -89,7 +86,20 @@ return {
                 axially_symmetrical = false,
                 direction_count = 16,
                 scale = 0.5,
-                animation_speed = 0.4
+                animation_speed = 0.5
+            },
+            shadow = {
+                shift = { 4, 0 }
+            },
+            team = {
+                filename = "__erm_zerg_hd_assets__/graphics/entity/units/parasite/parasite-run_teamcolour.png",
+                width = 89,
+                height = 81,
+                frame_count = 1,
+                axially_symmetrical = false,
+                direction_count = 16,
+                scale = 0.5,
+                animation_speed = 0.5
             }
         }
     },
@@ -97,7 +107,6 @@ return {
         explosion = {
             main =     {
                 filename = "__erm_zerg_hd_assets__/graphics/entity/projectiles/lurker_spike.png",
-                priority = "extra-high",
                 width = 674,
                 height = 556,
                 frame_count = 7,
@@ -111,7 +120,6 @@ return {
         explosion = {
             main =   {
                 filename = "__erm_zerg_hd_assets__/graphics/entity/projectiles/colony_spike.png",
-                priority = "extra-high",
                 width = 736,
                 height = 537,
                 frame_count = 6,
@@ -128,7 +136,6 @@ return {
         explosion = {
             main =     {
                 filename = "__erm_zerg_hd_assets__/graphics/entity/projectiles/defiler_blood.png",
-                priority = "extra-high",
                 width = 682,
                 height = 594,
                 frame_count = 12,
@@ -141,7 +148,6 @@ return {
         explosion = {
             main =     {
                 filename = "__erm_zerg_hd_assets__/graphics/entity/projectiles/darkswarm-80.png",
-                priority = "extra-high",
                 width = 256,
                 height = 256,
                 frame_count = 35,
@@ -155,7 +161,6 @@ return {
         explosion = {
             main =     {
                 filename = "__erm_zerg_hd_assets__/graphics/entity/projectiles/darkswarm.png",
-                priority = "extra-high",
                 width = 256,
                 height = 256,
                 frame_count = 60,
@@ -169,7 +174,6 @@ return {
         explosion = {
             main =     {
                 filename = "__erm_zerg_hd_assets__/graphics/entity/projectiles/snare.png",
-                priority = "extra-high",
                 width = 596,
                 height = 743,
                 frame_count = 13,
@@ -182,7 +186,6 @@ return {
         explosion = {
             main = {
                 filename = "__erm_zerg_hd_assets__/graphics/entity/projectiles/devourer_puke_hit.png",
-                priority = "extra-high",
                 width = 462,
                 height = 475,
                 frame_count = 10,
@@ -195,7 +198,14 @@ return {
         explosion = {
             main = {
                 filename = "__erm_zerg_hd_assets__/graphics/entity/projectiles/scourge_explosion.png",
-                priority = "extra-high",
+                width = 200,
+                height = 202,
+                frame_count = 9,
+                animation_speed = 0.4,
+                scale = 0.4
+            },
+            team = {
+                filename = "__erm_zerg_hd_assets__/graphics/entity/projectiles/scourge_explosion_teamcolour.png",
                 width = 200,
                 height = 202,
                 frame_count = 9,

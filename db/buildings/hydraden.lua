@@ -18,6 +18,16 @@ return {
         },
         shadow = {
             shift = {0.2, 0}
-        }
+        },
+        team =             {
+            filename = "__erm_zerg_hd_assets__/graphics/entity/buildings/hydraden/hydraden_teamcolour.png",
+            width = 710,
+            height = 512,
+            frame_count = 3,
+            animation_speed = 0.2,
+            direction_count = 1,
+            run_mode = "forward-then-backward",
+            scale = 0.5
+        },
     }
 }

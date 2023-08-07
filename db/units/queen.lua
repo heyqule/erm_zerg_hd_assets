@@ -18,7 +18,17 @@ return {
         },
         shadow = {
             shift = { 4, 0 }
-        }
+        },
+        team = {
+            filename = "__erm_zerg_hd_assets__/graphics/entity/units/queen/queen-run_teamcolour.png",
+            width = 538,
+            height = 512,
+            frame_count = 6,
+            axially_symmetrical = false,
+            direction_count = 16,
+            scale = 0.375,
+            animation_speed = 1,
+        },
     },
     attack = {
         main =             {
@@ -33,7 +43,17 @@ return {
         },
         shadow = {
             shift = { 4, 0 }
-        }
+        },
+        team =             {
+            filename = "__erm_zerg_hd_assets__/graphics/entity/units/queen/queen-attack_teamcolour.png",
+            width = 538,
+            height = 512,
+            frame_count = 5,
+            axially_symmetrical = false,
+            direction_count = 16,
+            scale = 0.375,
+            animation_speed = 0.5
+        },
     },
     corpse = {
         main = {

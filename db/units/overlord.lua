@@ -19,7 +19,18 @@ return {
         },
         shadow = {
             shift = { 4, 0 }
-        }
+        },
+        team = {
+            filename = "__erm_zerg_hd_assets__/graphics/entity/units/overlord/overlord-run_teamcolour.png",
+            width = 331,
+            height = 364,
+            frame_count = 4,
+            axially_symmetrical = false,
+            direction_count = 16,
+            scale = 0.375,
+            run_mode = "forward-then-backward",
+            animation_speed = 0.5
+        },
     },
     corpse = {
         main = {

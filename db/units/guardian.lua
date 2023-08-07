@@ -7,10 +7,16 @@
 return {
     run = {
         main =             {
-            filename = "__erm_zerg_hd_assets__/graphics/entity/units/guardian/guardian-run.png",
-            width = 377,
-            height = 317,
-            frame_count = 6,
+            filenames = {
+                "__erm_zerg_hd_assets__/graphics/entity/units/guardian/guardian-run-0.png",
+                "__erm_zerg_hd_assets__/graphics/entity/units/guardian/guardian-run-1.png"
+            },
+            width = 421,
+            height = 420,
+            frame_count = 7,
+            slice = 7,
+            lines_per_file = 8,
+            line_length = 7,
             axially_symmetrical = false,
             direction_count = 16,
             scale = 0.375,
@@ -18,6 +24,22 @@ return {
         },
         shadow = {
             shift = { 4, 0 }
+        },
+        team = {
+            filenames = {
+                "__erm_zerg_hd_assets__/graphics/entity/units/guardian/guardian-run_teamcolour-0.png",
+                "__erm_zerg_hd_assets__/graphics/entity/units/guardian/guardian-run_teamcolour-1.png"
+            },
+            width = 421,
+            height = 420,
+            frame_count = 7,
+            slice = 7,
+            lines_per_file = 8,
+            line_length = 7,
+            axially_symmetrical = false,
+            direction_count = 16,
+            scale = 0.375,
+            animation_speed = 0.5,
         }
     },
     corpse = {

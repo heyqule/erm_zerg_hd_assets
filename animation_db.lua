@@ -21,6 +21,7 @@ AnimationDB.data = {
         hive = require('db/buildings/hive'),
         hydraden = require('db/buildings/hydraden'),
         infested_cmd = require('db/buildings/infested_cmd'),
+        infested_cmd_infestor = require('db/buildings/infested_cmd_infestor'),
         lair = require('db/buildings/lair'),
         nyduspit = require('db/buildings/nyduspit'),
         queen_nest = require('db/buildings/queen_nest'),
@@ -47,7 +48,9 @@ AnimationDB.data = {
         scourge = require('db/units/scourge'),
         ultralisk = require('db/units/ultralisk'),
         zergling = require('db/units/zergling'),
-    }
+    },
+    default_team_color = {r=128, g=64, b=0, a=128}
+    --default_team_color = {r=128, g=64, b=0, a=0}
 }
 
 ---
@@ -123,11 +126,26 @@ end
 function AnimationDB.get_team_mask_animation(entity_type, name, animation_type, unit_scale)
     if AnimationDB.data[entity_type][name][animation_type]['team'] then
         local animation = util.table.deepcopy(AnimationDB.data[entity_type][name][animation_type]['team'])
+        animation['tint'] = AnimationDB.data.default_team_color
         if unit_scale then
             animation.unit_scale = unit_scale
         end
         return animation
     end
+end
+
+
+function AnimationDB.alter_team_color(data_animation, color)
+    if data_animation['layers'] then
+        for index, animation_node in pairs(data_animation['layers']) do
+            if (animation_node.filename and string.find( animation_node.filename, '_teamcolour') ~= nil) or
+               (animation_node.filenames and string.find( animation_node.filenames[1], '_teamcolour') ~= nil) then
+                data_animation['layers'][index]['tint'] = color
+            end
+        end
+    end
+
+    return data_animation
 end
 
 return AnimationDB

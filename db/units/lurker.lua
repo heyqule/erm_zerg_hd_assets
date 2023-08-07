@@ -18,21 +18,42 @@ return {
         },
         shadow = {
             shift = { 0.2, 0 }
-        }
+        },
+        team =             {
+            filename = "__erm_zerg_hd_assets__/graphics/entity/units/lurker/lurker-run.png",
+            width = 512,
+            height = 485,
+            frame_count = 7,
+            axially_symmetrical = false,
+            direction_count = 16,
+            scale = 0.4,
+            animation_speed = 0.5,
+        },
     },
     attack = {
         main =             {
-            filename = "__erm_zerg_hd_assets__/graphics/entity/units/lurker/lurker-burrow-combined.png",
-            width = 224,
-            height = 201,
+            filename = "__erm_zerg_hd_assets__/graphics/entity/units/lurker/lurker-attack.png",
+            width = 512,
+            height = 485,
             frame_count = 23,
+            frame_sequence = {1,2,3,4,5,6,7,7,7,7,7,7,7,7,7,7,7,7,7,8,9,10,11},
             direction_count = 1,
             scale = 0.4,
             animation_speed = 0.5
         },
         shadow = {
             shift = { 0.2, 0 }
-        }
+        },
+        team =             {
+            filename = "__erm_zerg_hd_assets__/graphics/entity/units/lurker/lurker-attack.png",
+            width = 512,
+            height = 485,
+            frame_count = 23,
+            frame_sequence = {1,2,3,4,5,6,7,7,7,7,7,7,7,7,7,7,7,7,7,8,9,10,11},
+            direction_count = 1,
+            scale = 0.4,
+            animation_speed = 0.5
+        },
     },
     corpse = {
         main = {

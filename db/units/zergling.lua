@@ -7,10 +7,16 @@
 return {
     run = {
         main = {
-            filename = "__erm_zerg_hd_assets__/graphics/entity/units/zergling/zergling-run.png",
-            width = 201,
-            height = 190,
+            filenames = {
+                "__erm_zerg_hd_assets__/graphics/entity/units/zergling/zergling-run-0.png",
+                "__erm_zerg_hd_assets__/graphics/entity/units/zergling/zergling-run-1.png"
+            },
+            width = 548,
+            height = 650,
             frame_count = 6,
+            slice = 6,
+            lines_per_file = 8,
+            line_length = 6,
             axially_symmetrical = false,
             direction_count = 16,
             scale = 0.4,
@@ -18,14 +24,36 @@ return {
         },
         shadow = {
             shift = { 0.2, 0 }
+        },
+        team = {
+            filenames = {
+                "__erm_zerg_hd_assets__/graphics/entity/units/zergling/zergling-run_teamcolour-0.png",
+                "__erm_zerg_hd_assets__/graphics/entity/units/zergling/zergling-run_teamcolour-1.png"
+            },
+            width = 548,
+            height = 650,
+            frame_count = 6,
+            slice = 6,
+            lines_per_file = 8,
+            line_length = 6,
+            axially_symmetrical = false,
+            direction_count = 16,
+            scale = 0.4,
+            animation_speed = 0.5,
         }
     },
     attack = {
         main = {
-            filename = "__erm_zerg_hd_assets__/graphics/entity/units/zergling/zergling-attack.png",
-            width = 258,
-            height = 238,
+            filenames = {
+                "__erm_zerg_hd_assets__/graphics/entity/units/zergling/zergling-attack-0.png",
+                "__erm_zerg_hd_assets__/graphics/entity/units/zergling/zergling-attack-1.png"
+            },
+            width = 548,
+            height = 650,
             frame_count = 6,
+            slice = 6,
+            lines_per_file = 8,
+            line_length = 6,
             axially_symmetrical = false,
             direction_count = 16,
             scale = 0.4,
@@ -33,6 +61,22 @@ return {
         },
         shadow = {
             shift = { 0.2, 0 }
+        },
+        team = {
+            filenames = {
+                "__erm_zerg_hd_assets__/graphics/entity/units/zergling/zergling-attack_teamcolour-0.png",
+                "__erm_zerg_hd_assets__/graphics/entity/units/zergling/zergling-attack_teamcolour-1.png"
+            },
+            width = 548,
+            height = 650,
+            frame_count = 6,
+            slice = 6,
+            lines_per_file = 8,
+            line_length = 6,
+            axially_symmetrical = false,
+            direction_count = 16,
+            scale = 0.4,
+            animation_speed = 0.5
         }
     },
     corpse = {

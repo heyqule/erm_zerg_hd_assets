@@ -18,7 +18,17 @@ return {
         },
         shadow = {
             shift = { 0.2, 0 }
-        }
+        },
+        team =  {
+            filename = "__erm_zerg_hd_assets__/graphics/entity/units/defiler/defiler-run_teamcolour.png",
+            width = 297,
+            height = 309,
+            frame_count = 8,
+            axially_symmetrical = false,
+            direction_count = 16,
+            scale = 0.375,
+            animation_speed = 0.5,
+        },
     },
     corpse = {
         main = {

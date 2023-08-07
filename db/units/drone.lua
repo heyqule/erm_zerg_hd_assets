@@ -6,18 +6,42 @@
 
 return {
     run = {
-        main =             {
-            filename = "__erm_zerg_hd_assets__/graphics/entity/units/drone/drone-run.png",
-            width = 376,
-            height = 352,
+        main = {
+            filenames =
+            {
+                "__erm_zerg_hd_assets__/graphics/entity/units/drone/drone-run-0.png",
+                "__erm_zerg_hd_assets__/graphics/entity/units/drone/drone-run-1.png",
+            },
+            width = 525,
+            height = 536,
             frame_count = 5,
             axially_symmetrical = false,
             direction_count = 16,
             scale = 0.4,
-            animation_speed = 1,
+            animation_speed = 0.5,
+            slice = 5,
+            lines_per_file = 8,
+            line_length = 5,
         },
         shadow = {
             shift = { 0.2, 0 }
+        },
+        team = {
+            filenames =
+            {
+                "__erm_zerg_hd_assets__/graphics/entity/units/drone/drone-run_teamcolour-0.png",
+                "__erm_zerg_hd_assets__/graphics/entity/units/drone/drone-run_teamcolour-1.png",
+            },
+            width = 525,
+            height = 536,
+            frame_count = 5,
+            axially_symmetrical = false,
+            direction_count = 16,
+            scale = 0.4,
+            animation_speed = 0.5,
+            slice = 5,
+            lines_per_file = 8,
+            line_length = 5,
         }
     },
     attack = {
