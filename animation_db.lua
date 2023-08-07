@@ -4,7 +4,6 @@
 --- DateTime: 7/18/2023 2:09 AM
 ---
 require('util')
-local ERM_UnitTint = require('__enemyracemanager__/lib/rig/unit_tint')
 local AnimationDB = {}
 
 --- Naming convention EntityType_Name. EntityType follows the graphics folder structure.

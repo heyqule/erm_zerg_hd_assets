@@ -4,8 +4,6 @@
 --- DateTime: 17/07/2023 2:48 PM
 ---
 
-local Sprites = require('__stdlib__/stdlib/data/modules/sprites')
-
 local final_render_layer = 'decals'
 if mods['alien-biomes'] then
     final_render_layer = "lower-radius-visualization"

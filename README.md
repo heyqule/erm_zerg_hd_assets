@@ -14,7 +14,7 @@ However, Starcraft graphic and sound assets are properties of Blizzard Entertain
 
 
 ### How to use?
-1. Add erm_zerg_hd_assets as your mod dependency in info.json
+##### 1. Add erm_zerg_hd_assets as your mod dependency in info.json
 ```json
 {
   "factorio_version": "1.1",
@@ -23,43 +23,57 @@ However, Starcraft graphic and sound assets are properties of Blizzard Entertain
   ]
 }
 ```
-2. Using assets within your mod, Here is a list of possible animations [animation_api_calls.lua](https://github.com/heyqule/erm_zerg_hd_assets/blob/main/animation_api_calls.lua)
+##### 2. Using assets within your mod, Here is a list of possible animations [animation_api_calls.lua](https://github.com/heyqule/erm_zerg_hd_assets/blob/main/animation_api_calls.lua)
 ```lua
 --- Include graphics in your mods file
 local ZergAnimation = require('__erm_zerg_hd_assets__/animation_db')
+```
 
+##### 3. Assign entity animation that has multiple layers
+```
 --- Entity_Type, Name, Animation_Type, Unit_Scale(optional)
 unit['animations'] = ZergAnimation.get_layer_animation('unit','zergling','run')
+```
 
+##### 4. Assign entity animation that has single layer
+```
 -- Single layer animation
 projectile['animation'] = ZergAnimation.get_single_animation('projectiles','spore1','projectile')
+```
 
 
--- What if i want to change the properties of the animation?
+##### 5. What if you want to change the properties of the animation?
+```
 local animation = ZergAnimation.get_single_animation('projectile','spore1')
 animation['unit_scale'] = 5
 projectile['animation'] = animation
+```
 
--- What if i want to change the properties of the multi layer animation?
+##### 6. What if you want to change the properties of the multi layer animation? Run it through a loop :)
+```
 local animation = ZergAnimation.get_layer_animation('unit','zergling','run')
-for index, _ in pairs(animation['layer']) do
+for index, _ in pairs(animation['layers']) do
     animation['layer'][index]['unit_scale'] = 5    
 end
 projectile['animation'] = animation
+```
 
-
---- Include Sound, see the class for details 
+##### Include Sound, see the class for details
+```
 local ZergSound = require('__erm_zerg_hd_assets__/sound')
 unit['dying_sound'] = ZergSound.enemy_death('zergling', 1.0)
+```
 
---- What if you don't like my animation setup.
---- you can link the assets directly to your animation and then define your own parameters.
+##### What if you don't like my animation setup.
+you can link the assets directly to your animation and then define your own parameters.
+```
 {
     filename = '__erm_zerg_hd_assets__/graphics/entity/units/broodling/broodling-attack.png'
 }
+```
 
-
---- Use the creep on other buildings
+##### Use the creep on other buildings
+```
 building['spawn_decoration'] = {
     {
         decorative = "creep-decal",
@@ -77,10 +91,29 @@ building['spawn_decoration'] = {
         radius_curve = 0.9
     }
 }
+```
 
---- Linking icons
+##### Linking icons
+```
 {
     icon = "__erm_zerg_hd_assets__/graphics/entity/icons/units/zergling.png",
     icon_size = 64,
 } 
 ```
+
+##### Changing Animation Speed
+```lua
+local animations = ZergAnimation.get_layer_animation('unit','zergling','run')
+for index, animation in pairs(animations['layers']) do
+    -- 1 = 60fps, 0.5 = 30fps and etc
+    -- Animation DB mostly use 0.5 and 0.2 animation speed.
+    ZergAnimation.change_animation_speed(animation, 0.5)
+end
+unit['run_animation'] = animations
+```
+
+##### Updating team color (Please see https://github.com/heyqule/erm_zerg_hd for complete example.)
+1. copy settings.sample.lua and update-teamcolour.sample.lua to your mod
+2. add require('update-teamcolour') to the end of your data.lua
+3. make neccessary changes for update-teamcolour code
+4. Test and repeat #3 until you are happy with the results.
