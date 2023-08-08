@@ -8,7 +8,11 @@ Date: 2023-??-??
   Changes:
     - Fixed entity from sunker-colony to sunken-colony.
     - Change decal's render_layer, so they are not hidden under Alien Biomes
-    - Clear the code up to be independent
+    - AnimationDB code clean up
+
+  Graphics:
+    - Various changes on entity resolution, some animations utilize file splits.
+    - Some old files are now marked deprecated, will be removed soon to reduce package size.
 
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.1

@@ -63,6 +63,7 @@ function AnimationDB.get_layered_animations(entity_type, name, animation_type, u
             AnimationDB.get_team_mask_animation(entity_type, name, animation_type, unit_scale),
             AnimationDB.get_glow_mask_animation(entity_type, name, animation_type, unit_scale),
             AnimationDB.get_effect_mask_animation(entity_type, name, animation_type, unit_scale),
+            AnimationDB.get_light_mask_animation(entity_type, name, animation_type, unit_scale),
         }
     }
 end
@@ -118,6 +119,21 @@ function AnimationDB.get_effect_mask_animation(entity_type, name, animation_type
         return animation
     end
 end
+
+---
+--- Return draw_as_light mask
+---
+function AnimationDB.get_light_mask_animation(entity_type, name, animation_type, unit_scale)
+    if AnimationDB.data[entity_type][name][animation_type]['light'] then
+        local animation = util.table.deepcopy(AnimationDB.data[entity_type][name][animation_type]['light'])
+        if unit_scale then
+            animation.unit_scale = unit_scale
+        end
+        animation['draw_as_light'] = true
+        return animation
+    end
+end
+
 
 ---
 --- Return color mask for team colors

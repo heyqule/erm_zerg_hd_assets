@@ -3,7 +3,7 @@
 --- Created by heyqule.
 --- DateTime: 8/7/2022 7:42 PM
 ---
---- This files serve as an example on how to update team color
+--- This files serve as an example on how to update team color, this required ERM core mods.
 ---
 --- add this file with require('update-teamcolour') in your mod
 ---
