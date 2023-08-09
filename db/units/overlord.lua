@@ -15,7 +15,7 @@ return {
                 direction_count = 16,
                 scale = 0.375,
                 run_mode = "forward-then-backward",
-                animation_speed = 0.5
+                animation_speed = 0.4
         },
         shadow = {
             shift = { 4, 0 }
@@ -29,7 +29,7 @@ return {
             direction_count = 16,
             scale = 0.375,
             run_mode = "forward-then-backward",
-            animation_speed = 0.5
+            animation_speed = 0.4
         },
     },
     corpse = {

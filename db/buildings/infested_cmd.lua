@@ -12,7 +12,7 @@ return {
             height = 646,
             frame_count = 6,
             direction_count = 1,
-            animation_speed = 0.18,
+            animation_speed = 0.2,
             scale = 0.5
         },
         shadow = {
@@ -24,7 +24,7 @@ return {
             height = 646,
             frame_count = 6,
             direction_count = 1,
-            animation_speed = 0.18,
+            animation_speed = 0.2,
             scale = 0.5,
             shift = {0.0, -0.05}
         },
@@ -36,7 +36,7 @@ return {
             frame_count = 1,
             repeat_count = 6,
             direction_count = 1,
-            animation_speed = 0.18,
+            animation_speed = 0.2,
             scale = 0.5,
         }
     }

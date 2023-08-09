@@ -14,7 +14,7 @@ return {
             axially_symmetrical = false,
             direction_count = 16,
             scale = 0.3,
-            animation_speed = 0.5,
+            animation_speed = 0.4,
         },
         shadow = {
             shift = { 0.2, 0 }
@@ -27,7 +27,7 @@ return {
             axially_symmetrical = false,
             direction_count = 16,
             scale = 0.3,
-            animation_speed = 0.5,
+            animation_speed = 0.4,
         }
     },
     attack = {
@@ -39,20 +39,22 @@ return {
             axially_symmetrical = false,
             direction_count = 16,
             scale = 0.3,
-            animation_speed = 0.5,
+            animation_speed = 0.4,
         },
         shadow = {
             shift = { 0.2, 0 }
         }
     },
     corpse = {
-        filename = "__erm_zerg_hd_assets__/graphics/entity/units/broodling/broodling-death.png",
-        width = 242,
-        height = 222,
-        frame_count = 2,
-        direction_count = 1,
-        axially_symmetrical = false,
-        scale = 0.3,
-        animation_speed = 0.2
+        main = {
+            filename = "__erm_zerg_hd_assets__/graphics/entity/units/broodling/broodling-death.png",
+            width = 242,
+            height = 222,
+            frame_count = 2,
+            direction_count = 1,
+            axially_symmetrical = false,
+            scale = 0.3,
+            animation_speed = 0.2
+        }
     }
 }

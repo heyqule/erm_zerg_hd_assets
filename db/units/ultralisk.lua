@@ -88,7 +88,7 @@ return {
             direction_count = 1,
             axially_symmetrical = false,
             scale = 0.54,
-            animation_speed = 0.1
+            animation_speed = 0.2
         }
     }
 }

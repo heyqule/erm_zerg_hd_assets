@@ -18,7 +18,7 @@ return {
             axially_symmetrical = false,
             direction_count = 16,
             scale = 0.4,
-            animation_speed = 0.5,
+            animation_speed = 0.4,
             slice = 5,
             lines_per_file = 8,
             line_length = 5,
@@ -38,7 +38,7 @@ return {
             axially_symmetrical = false,
             direction_count = 16,
             scale = 0.4,
-            animation_speed = 0.5,
+            animation_speed = 0.4,
             slice = 5,
             lines_per_file = 8,
             line_length = 5,
@@ -61,13 +61,15 @@ return {
         }
     },
     corpse = {
-        filename = "__erm_zerg_hd_assets__/graphics/entity/units/drone/drone-death.png",
-        width = 525,
-        height = 536,
-        frame_count = 7,
-        direction_count = 1,
-        axially_symmetrical = false,
-        scale = 0.4,
-        animation_speed = 0.2
+        main = {
+            filename = "__erm_zerg_hd_assets__/graphics/entity/units/drone/drone-death.png",
+            width = 525,
+            height = 536,
+            frame_count = 7,
+            direction_count = 1,
+            axially_symmetrical = false,
+            scale = 0.4,
+            animation_speed = 0.2
+        }
     }
 }

@@ -14,7 +14,7 @@ return {
             axially_symmetrical = false,
             direction_count = 16,
             scale = 0.4,
-            animation_speed = 0.5,
+            animation_speed = 0.4,
         },
         shadow = {
             shift = { 0.2, 0 }
@@ -27,7 +27,7 @@ return {
             axially_symmetrical = false,
             direction_count = 16,
             scale = 0.4,
-            animation_speed = 0.5,
+            animation_speed = 0.4,
         },
     },
     attack = {
@@ -39,7 +39,7 @@ return {
             frame_sequence = {1,2,3,4,5,6,7,7,7,7,7,7,7,7,7,7,7,7,7,8,9,10,11},
             direction_count = 1,
             scale = 0.4,
-            animation_speed = 0.5
+            animation_speed = 0.4
         },
         shadow = {
             shift = { 0.2, 0 }
@@ -52,7 +52,7 @@ return {
             frame_sequence = {1,2,3,4,5,6,7,7,7,7,7,7,7,7,7,7,7,7,7,8,9,10,11},
             direction_count = 1,
             scale = 0.4,
-            animation_speed = 0.5
+            animation_speed = 0.4
         },
     },
     corpse = {

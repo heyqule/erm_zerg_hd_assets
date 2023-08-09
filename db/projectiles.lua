@@ -15,7 +15,7 @@ return {
                 axially_symmetrical = false,
                 direction_count = 16,
                 scale = 0.4,
-                animation_speed = 0.5
+                animation_speed = 0.4
             }
         },
         projectile = {
@@ -24,7 +24,7 @@ return {
                 frame_count = 1,
                 width = 78,
                 height = 148,
-                animation_speed = 0.5,
+                animation_speed = 0.4,
                 scale = 0.4
             }
         },
@@ -35,7 +35,7 @@ return {
                 height = 171,
                 line_length = 8,
                 frame_count = 8,
-                animation_speed = 0.5,
+                animation_speed = 0.4,
                 scale = 0.4
             }
         }
@@ -48,7 +48,7 @@ return {
                 width = 168,
                 height = 146,
                 scale = 0.5,
-                animation_speed = 0.5,
+                animation_speed = 0.4,
                 run_mode = 'forward-then-backward'
             }
         },
@@ -58,7 +58,7 @@ return {
                 width = 158,
                 height = 263,
                 frame_count = 10,
-                animation_speed = 0.5,
+                animation_speed = 0.4,
                 scale = 1
             }
         }
@@ -70,7 +70,7 @@ return {
                 width = 107,
                 height = 108,
                 frame_count = 4,
-                animation_speed = 0.5,
+                animation_speed = 0.4,
                 scale = 0.5
             }
         }
@@ -85,7 +85,7 @@ return {
                 axially_symmetrical = false,
                 direction_count = 16,
                 scale = 0.5,
-                animation_speed = 0.5
+                animation_speed = 0.4
             },
             shadow = {
                 shift = { 4, 0 }
@@ -98,7 +98,7 @@ return {
                 axially_symmetrical = false,
                 direction_count = 16,
                 scale = 0.5,
-                animation_speed = 0.5
+                animation_speed = 0.4
             }
         }
     },
@@ -165,7 +165,7 @@ return {
                 line_length = 5,
                 frame_count = 60,
                 frame_sequence = {1,2,3,4,5,6,7,8,9,10,9,8,7,6,7,8,9,10,9,8,7,6,7,8,9,10,9,8,7,6,7,8,9,10,9,8,7,6,7,8,9,10,9,8,7,6,7,8,9,10,9,8,7,6,5,4,3,2,1},
-                animation_speed = 0.5,
+                animation_speed = 0.4,
                 scale = 0.5
             }
         }

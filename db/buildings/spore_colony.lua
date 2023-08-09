@@ -34,7 +34,7 @@ return {
             width = 508,
             height = 515,
             frame_count = 4,
-            animation_speed = 0.15,
+            animation_speed = 0.2,
             direction_count = 1,
             scale = 0.5
         },
@@ -47,7 +47,7 @@ return {
             height = 515,
             frame_count = 1,
             repeat_count = 4,
-            animation_speed = 0.15,
+            animation_speed = 0.2,
             direction_count = 1,
             scale = 0.5
         },

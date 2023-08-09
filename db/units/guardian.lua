@@ -20,7 +20,7 @@ return {
             axially_symmetrical = false,
             direction_count = 16,
             scale = 0.375,
-            animation_speed = 0.5,
+            animation_speed = 0.4,
         },
         shadow = {
             shift = { 4, 0 }
@@ -39,7 +39,7 @@ return {
             axially_symmetrical = false,
             direction_count = 16,
             scale = 0.375,
-            animation_speed = 0.5,
+            animation_speed = 0.4,
         }
     },
     corpse = {
@@ -51,7 +51,7 @@ return {
             direction_count = 1,
             axially_symmetrical = false,
             scale = 0.375,
-            animation_speed = 0.5
+            animation_speed = 0.4
         }
     }
 }

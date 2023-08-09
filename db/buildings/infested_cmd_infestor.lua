@@ -12,7 +12,7 @@ return {
             height = 646,
             frame_count = 6,
             direction_count = 1,
-            animation_speed = 0.18,
+            animation_speed = 0.2,
             scale = 0.5
         },
         team = {
@@ -22,7 +22,7 @@ return {
             height = 646,
             frame_count = 6,
             direction_count = 1,
-            animation_speed = 0.18,
+            animation_speed = 0.2,
             scale = 0.5,
         }
     }

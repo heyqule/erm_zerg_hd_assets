@@ -14,7 +14,7 @@ return {
             axially_symmetrical = false,
             direction_count = 16,
             scale =  0.375,
-            animation_speed = 0.5,
+            animation_speed = 0.4,
             run_mode = 'forward-then-backward'
         },
         shadow = {
@@ -28,7 +28,7 @@ return {
             axially_symmetrical = false,
             direction_count = 16,
             scale =  0.375,
-            animation_speed = 0.5,
+            animation_speed = 0.4,
             run_mode = 'forward-then-backward'
         },
     },
@@ -55,7 +55,7 @@ return {
             axially_symmetrical = false,
             direction_count = 16,
             scale =  0.375,
-            animation_speed = 0.5,
+            animation_speed = 0.4,
             run_mode = 'forward-then-backward'
         },
     },
@@ -68,7 +68,7 @@ return {
             direction_count = 1,
             axially_symmetrical = false,
             scale = 0.375,
-            animation_speed = 0.15
+            animation_speed = 0.2
         }
     }
 }

@@ -5,7 +5,7 @@
 ---
 --- This file lists all callable animation functions.
 
-AnimationDB = require('animation_db')
+local AnimationDB = require('animation_db')
 
 --- Death animations
 AnimationDB.get_layered_animations('death', 'small_rubble', 'run')
@@ -36,7 +36,6 @@ AnimationDB.get_layered_animations('buildings', 'overmind', 'run')
 AnimationDB.get_layered_animations('buildings', 'chamber', 'run')
 AnimationDB.get_layered_animations('buildings', 'defiler_mound', 'run')
 AnimationDB.get_layered_animations('buildings', 'greater_spire', 'run')
-AnimationDB.get_layered_animations('buildings', 'cybernetics_core', 'run')
 AnimationDB.get_layered_animations('buildings', 'hatchery', 'run')
 AnimationDB.get_layered_animations('buildings', 'hive', 'run')
 AnimationDB.get_layered_animations('buildings', 'hydraden', 'run')
@@ -45,11 +44,11 @@ AnimationDB.get_layered_animations('buildings', 'lair', 'run')
 AnimationDB.get_layered_animations('buildings', 'nyduspit', 'run')
 AnimationDB.get_layered_animations('buildings', 'queen_nest', 'run')
 AnimationDB.get_layered_animations('buildings', 'spawning_pool', 'run')
-AnimationDB.get_layered_animations('buildings', 'spire', 'attack')
+AnimationDB.get_layered_animations('buildings', 'spire', 'run')
 AnimationDB.get_layered_animations('buildings', 'spore_colony', 'run')
 AnimationDB.get_layered_animations('buildings', 'sunken_colony', 'run')
 AnimationDB.get_layered_animations('buildings', 'sunken_colony', 'attack')
-AnimationDB.get_layered_animations('buildings', 'ultralist_cavern', 'run')
+AnimationDB.get_layered_animations('buildings', 'ultralisk_cavern', 'run')
 
 
 --- Units
