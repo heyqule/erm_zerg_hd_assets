@@ -5,7 +5,7 @@
 ---
 
 return {
-    run = {
+    folded = {
         main = {
             filename = "__erm_zerg_hd_assets__/graphics/entity/buildings/spore_colony/spore_colony.png",
             run_mode = "forward",

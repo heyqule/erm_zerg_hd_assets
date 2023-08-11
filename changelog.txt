@@ -9,7 +9,7 @@ Date: 2023-??-??
     - Fixed entity from sunker-colony to sunken-colony.
     - Change decal's render_layer, so they are not hidden under Alien Biomes
     - AnimationDB code clean up
-    - AnimationDB now use 24/s frames for most animations and 12/s frames for a few.
+    - AnimationDB now use 24f/s for most animations and 12f/s frames for a few.
 
   Graphics:
     - Various changes on entity resolution, some animations utilize file splits.

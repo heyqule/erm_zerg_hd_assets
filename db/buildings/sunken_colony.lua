@@ -5,7 +5,7 @@
 ---
 
 return {
-    run = {
+    folded = {
         main =              {
             filename = "__erm_zerg_hd_assets__/graphics/entity/buildings/sunken_colony/sunken_colony.png",
             width = 521,

@@ -67,7 +67,8 @@ return {
                 frame_count = 10,
                 animation_speed = 0.4,
                 direction_count = 1,
-                scale = 0.7
+                scale = 0.7,
+                draw_as_glow = true,
             }
         }
     }
