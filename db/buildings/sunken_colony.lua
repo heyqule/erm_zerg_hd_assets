@@ -34,6 +34,7 @@ return {
             frame_count = 11,
             direction_count = 3,
             scale = 0.5,
+            run_mode = "forward-then-backward",
         },
         team =              {
             filename = "__erm_zerg_hd_assets__/graphics/entity/buildings/sunken_colony/sunken_colony_attack_teamcolour.png",
@@ -41,6 +42,7 @@ return {
             height = 503,
             frame_count = 11,
             direction_count = 1,
+            run_mode = "forward-then-backward",
             scale = 0.5,
         },
     }
