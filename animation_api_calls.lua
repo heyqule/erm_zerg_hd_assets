@@ -7,6 +7,15 @@
 
 local AnimationDB = require('animation_db')
 
+--- Passing scale into layered animation, the following example double the scale
+--- AnimationDB.get_layered_animations('death', 'small_rubble', 'run', 2)
+
+--- Subtype for corpse animation are usually "main". when you use scale, you can do one of the following
+--- AnimationDB.get_single_animation('units', 'broodling', 'corpse', 'main', 2)
+--- AnimationDB.get_single_animation('units', 'broodling', 'corpse', nil, 2)
+
+--- Some units use run animation for its attack animations
+
 --- Death animations
 AnimationDB.get_layered_animations('death', 'small_rubble', 'run')
 AnimationDB.get_layered_animations('death', 'large_rubble', 'run')
@@ -52,7 +61,6 @@ AnimationDB.get_layered_animations('buildings', 'ultralisk_cavern', 'run')
 
 
 --- Units
---- Some units use run animation for its attack
 AnimationDB.get_layered_animations('units', 'broodling', 'run')
 AnimationDB.get_layered_animations('units', 'broodling', 'attack')
 AnimationDB.get_single_animation('units', 'broodling', 'corpse')
