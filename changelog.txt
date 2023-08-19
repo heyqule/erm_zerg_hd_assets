@@ -1,4 +1,15 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.2.0
+Date: 2023-08-11
+
+  Changes:
+    - Removed all deprecated graphics to reduce size.
+    - Consolidated all death animation to be 24 frame / s
+
+  Bugfixes:
+    - Fix a crash from a typo in info.json
+
+---------------------------------------------------------------------------------------------------
 Version: 1.1.0
 Date: 2023-08-11
 

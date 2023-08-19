@@ -54,7 +54,7 @@ return {
             direction_count = 1,
             axially_symmetrical = false,
             scale = 0.3,
-            animation_speed = 0.2
+            animation_speed = 0.4
         }
     }
 }
