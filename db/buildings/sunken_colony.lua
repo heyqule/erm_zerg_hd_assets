@@ -36,7 +36,10 @@ return {
             scale = 0.5,
             run_mode = "forward-then-backward",
         },
-        team =              {
+        shadow = {
+            shift = {0.2, 0}
+        },
+        team = {
             filename = "__erm_zerg_hd_assets__/graphics/entity/buildings/sunken_colony/sunken_colony_attack_teamcolour.png",
             width = 521,
             height = 503,
