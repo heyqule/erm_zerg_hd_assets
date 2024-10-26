@@ -24,7 +24,7 @@ return {
             width = 515,
             height = 512,
             frame_count = 1,
-            repeat_count = 10,
+            repeat_count = 8,
             animation_speed = 0.2,
             direction_count = 1,
             scale = 0.5

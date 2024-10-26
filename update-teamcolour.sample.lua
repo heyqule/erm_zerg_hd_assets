@@ -42,7 +42,7 @@ end
 
 --- Make sure entity match the name pattern of your entities
 local name_check = function(name)
-    local nameToken = String.split(name, '/')
+    local nameToken = String.split(name, '--')
     return nameToken[1] == 'erm_zerg'
 end
 

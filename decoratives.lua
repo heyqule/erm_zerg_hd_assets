@@ -16,7 +16,7 @@ data:extend({
         type = "optimized-decorative",
         order = "b[decorative]-b[creep-decal]",
         collision_box = { { -6, -4 }, { 6, 4 } },
-        collision_mask = { "water-tile", "colliding-with-tiles-only" },
+        collision_mask = { layers = {water_tile = true}, "colliding-with-tiles-only" },
         render_layer = final_render_layer,
         tile_layer = 58,
         pictures = {
@@ -91,7 +91,7 @@ data:extend({
         type = "optimized-decorative",
         order = "b[decorative]-b[creep-decal]",
         collision_box = { { -6, -4 }, { 6, 4 } },
-        collision_mask = { "water-tile", "colliding-with-tiles-only" },
+        collision_mask = { layers = {water_tile = true}, "colliding-with-tiles-only" },
         render_layer = final_render_layer,
         tile_layer = 57,
         pictures = {
