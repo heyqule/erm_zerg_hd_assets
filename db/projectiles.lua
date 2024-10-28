@@ -131,6 +131,31 @@ return {
             }
         }
     },
+    devourer = {
+        projectile = {
+            main = {
+                filename = "__erm_zerg_hd_assets__/graphics/entity/projectiles/devourer_puke.png",
+                width = 80,
+                height = 80,
+                frame_count = 4,
+                axially_symmetrical = false,
+                direction_count = 16,
+                animation_speed = 0.2,
+                draw_as_glow = true,
+                run_mode = "forward-then-backward",
+            }
+        },
+        explosion = {
+            main = {
+                filename = "__erm_zerg_hd_assets__/graphics/entity/projectiles/devourer_puke_hit.png",
+                width = 462,
+                height = 475,
+                frame_count = 10,
+                animation_speed = 0.4,
+                scale = 0.375
+            }
+        }
+    },
     blood_cloud = {
         explosion = {
             main =     {
@@ -179,18 +204,6 @@ return {
                 frame_count = 13,
                 animation_speed = 0.4,
                 scale = 0.5
-            }
-        }
-    },
-    devourer_cloud = {
-        explosion = {
-            main = {
-                filename = "__erm_zerg_hd_assets__/graphics/entity/projectiles/devourer_puke_hit.png",
-                width = 462,
-                height = 475,
-                frame_count = 10,
-                animation_speed = 0.4,
-                scale = 0.375
             }
         }
     },

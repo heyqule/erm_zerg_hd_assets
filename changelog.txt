@@ -1,4 +1,15 @@
 ---------------------------------------------------------------------------------------------------
+Version: 2.0.0
+Date: ??-??-??
+
+  Features:
+    - Updated to Factorio 2.0
+
+  Changes:
+    - Fixed repeat_count for "forward-then-backward" as first and last frame no longer count.
+    - Added missing devourer projectile. AnimationDB.get_single_animation('projectiles','devourer','projectile')
+    - Renamed AnimationDB.get_single_animation('projectiles','devourer_cloud','explosion') to AnimationDB.get_single_animation('projectiles','devourer','explosion')
+---------------------------------------------------------------------------------------------------
 Version: 1.2.1
 Date: 2023-08-26
 
