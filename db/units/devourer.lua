@@ -15,7 +15,7 @@ return {
             direction_count = 16,
             scale =  0.375,
             animation_speed = 0.4,
-            run_mode = 'forward-then-backward'
+            run_mode = "forward-then-backward"
         },
         shadow = {
             shift = { 4, 0 }
@@ -29,7 +29,7 @@ return {
             direction_count = 16,
             scale =  0.375,
             animation_speed = 0.4,
-            run_mode = 'forward-then-backward'
+            run_mode = "forward-then-backward"
         },
     },
     attack = {
@@ -42,7 +42,7 @@ return {
             direction_count = 16,
             scale = 0.375,
             animation_speed = 0.2,
-            run_mode = 'forward-then-backward'
+            run_mode = "forward-then-backward"
         },
         shadow = {
             shift = { 4, 0 }
@@ -56,7 +56,7 @@ return {
             direction_count = 16,
             scale =  0.375,
             animation_speed = 0.4,
-            run_mode = 'forward-then-backward'
+            run_mode = "forward-then-backward"
         },
     },
     corpse = {

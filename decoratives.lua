@@ -4,8 +4,8 @@
 --- DateTime: 17/07/2023 2:48 PM
 ---
 
-local final_render_layer = 'decals'
-if mods['alien-biomes'] then
+local final_render_layer = "decals"
+if mods["alien-biomes"] then
     final_render_layer = "lower-radius-visualization"
 end
 

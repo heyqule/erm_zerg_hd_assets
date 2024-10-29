@@ -3,4 +3,4 @@
 --- Created by heyqule.
 --- DateTime: 7/18/2023 2:11 AM
 ---
-require('decoratives')
+require("decoratives")

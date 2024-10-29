@@ -49,7 +49,7 @@ return {
                 height = 146,
                 scale = 0.5,
                 animation_speed = 0.4,
-                run_mode = 'forward-then-backward'
+                run_mode = "forward-then-backward"
             }
         },
         explosion = {
