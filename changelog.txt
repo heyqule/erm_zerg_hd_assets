@@ -4,11 +4,16 @@ Date: ??-??-??
 
   Features:
     - Updated to Factorio 2.0
+    - Sound adjustments with 2.0 specs. Firing from hundreds of units should no longer nuke your speakers.
 
   Changes:
     - Fixed repeat_count for "forward-then-backward" as first and last frame no longer count.
     - Added missing devourer projectile. AnimationDB.get_single_animation('projectiles','devourer','projectile')
     - Renamed AnimationDB.get_single_animation('projectiles','devourer_cloud','explosion') to AnimationDB.get_single_animation('projectiles','devourer','explosion')
+
+  Bugfixes:
+    - Fixed teamcolor on broodling
+
 ---------------------------------------------------------------------------------------------------
 Version: 1.2.1
 Date: 2023-08-26
