@@ -5,14 +5,18 @@
 -- Time: 1:04 AM
 -- To change this template use File | Settings | File Templates.
 --
+local sound_util = require('__erm_libs__/prototypes/sound_util')
 local ZergSound = {}
+
+local get_aggregation = sound_util.get_aggregation
 
 function ZergSound.enemy_death(name, volume, distance)
     distance = distance or 1
     return {
         audible_distance_modifier = distance,
         filename = "__erm_zerg_hd_assets__/sound/enemies/" .. name .. "/death.ogg",
-        volume = volume
+        volume = volume,
+        aggregation = get_aggregation(2),
     }
 end
 
@@ -30,7 +34,8 @@ function ZergSound.meele_attack(volume, distance)
                 filename = "__erm_zerg_hd_assets__/sound/enemies/ultralisk/attack.ogg",
                 volume = volume
             }
-        }
+        },
+        aggregation = get_aggregation(2)
     }
 end
 
@@ -39,7 +44,8 @@ function ZergSound.zergling_attack(volume, distance)
     return {
         audible_distance_modifier = distance,
         filename = "__erm_zerg_hd_assets__/sound/enemies/zergling/attack.ogg",
-        volume = volume
+        volume = volume,
+        aggregation = get_aggregation(2)
     }
 end
 
@@ -65,7 +71,8 @@ function ZergSound.ultralisk_attack(volume, distance)
                 filename = "__erm_zerg_hd_assets__/sound/enemies/ultralisk/attack3.ogg",
                 volume = volume
             }
-        }
+        },
+        aggregation = get_aggregation(2)
     }
 end
 
@@ -75,7 +82,8 @@ function ZergSound.broodling_attack(volume, distance)
         audible_distance_modifier = distance,
 
         filename = "__erm_zerg_hd_assets__/sound/enemies/broodling/attack.ogg",
-        volume = volume
+        volume = volume,
+        aggregation = get_aggregation(2)
     }
 end
 
@@ -85,7 +93,8 @@ function ZergSound.mutalisk_attack(volume, distance)
         audible_distance_modifier = distance,
 
         filename = "__erm_zerg_hd_assets__/sound/enemies/mutalisk/attack.ogg",
-        volume = volume
+        volume = volume,
+        aggregation = get_aggregation(2)
     }
 end
 
@@ -95,7 +104,8 @@ function ZergSound.guardian_attack(volume, distance)
         audible_distance_modifier = distance,
 
         filename = "__erm_zerg_hd_assets__/sound/enemies/guardian/attack.ogg",
-        volume = volume
+        volume = volume,
+        aggregation = get_aggregation(2)
     }
 end
 
@@ -105,7 +115,8 @@ function ZergSound.hydralisk_attack(volume, distance)
         audible_distance_modifier = distance,
 
         filename = "__erm_zerg_hd_assets__/sound/enemies/hydralisk/attack.ogg",
-        volume = volume
+        volume = volume,
+        aggregation = get_aggregation(2)
     }
 end
 
@@ -115,7 +126,8 @@ function ZergSound.devourer_attack(volume, distance)
         audible_distance_modifier = distance,
 
         filename = "__erm_zerg_hd_assets__/sound/enemies/devourer/attack.ogg",
-        volume = volume
+        volume = volume,
+        aggregation = get_aggregation(2)
     }
 end
 
@@ -138,7 +150,8 @@ function ZergSound.building_dying_sound(volume, distance)
     return {
         audible_distance_modifier = distance,
         filename = "__erm_zerg_hd_assets__/sound/buildings/building_death.ogg",
-        volume = volume
+        volume = volume,
+        aggregation = get_aggregation(2)
     }
 end
 
@@ -147,7 +160,8 @@ function ZergSound.cmd_building_dying_sound(volume, distance)
     return {
         audible_distance_modifier = distance,
         filename = "__erm_zerg_hd_assets__/sound/buildings/infested_building_death.ogg",
-        volume = volume
+        volume = volume,
+        aggregation = get_aggregation(2)
     }
 end
 
@@ -157,7 +171,8 @@ function ZergSound.devourer_hit(volume, distance)
         audible_distance_modifier = distance,
 
         filename = "__erm_zerg_hd_assets__/sound/enemies/devourer/goohit.ogg",
-        volume = volume
+        volume = volume,
+        aggregation = get_aggregation(2)
     }
 end
 
@@ -167,7 +182,8 @@ function ZergSound.overlord_drop(volume, distance)
         audible_distance_modifier = distance,
 
         filename = "__erm_zerg_hd_assets__/sound/enemies/overlord/attack.ogg",
-        volume = volume
+        volume = volume,
+        aggregation = get_aggregation(2)
     }
 end
 
@@ -189,7 +205,8 @@ function ZergSound.lurker_hit(volume, distance)
                 filename = "__erm_zerg_hd_assets__/sound/enemies/lurker/hit-3.ogg",
                 volume = volume
             }
-        }
+        },
+        aggregation = get_aggregation(2)
     }
 end
 
@@ -207,7 +224,8 @@ function ZergSound.lurker_attack(volume, distance)
                 filename = "__erm_zerg_hd_assets__/sound/enemies/lurker/attack-2.ogg",
                 volume = volume
             }
-        }
+        },
+        aggregation = get_aggregation(2)
     }
 end
 
@@ -232,7 +250,8 @@ function ZergSound.sunken_attack(volume, distance)
     return {
         audible_distance_modifier = distance,
         filename = "__erm_zerg_hd_assets__/sound/buildings/sunken_attack.ogg",
-        volume = volume
+        volume = volume,
+        aggregation = get_aggregation(2)
     }
 end
 
@@ -242,7 +261,8 @@ function ZergSound.sunken_hit(volume, distance)
         audible_distance_modifier = distance,
 
         filename = "__erm_zerg_hd_assets__/sound/buildings/sunken_hit.ogg",
-        volume = volume
+        volume = volume,
+        aggregation = get_aggregation(2)
     }
 end
 
@@ -280,7 +300,8 @@ function ZergSound.infested_attack(volume, distance)
                 filename = "__erm_zerg_hd_assets__/sound/enemies/infested/attack-3.ogg",
                 volume = volume
             },
-        }
+        },
+        aggregation = get_aggregation(2)
     }
 end
 
@@ -298,7 +319,8 @@ function ZergSound.infested_death(volume, distance)
                 filename = "__erm_zerg_hd_assets__/sound/enemies/infested/death-1.ogg",
                 volume = volume
             }
-        }
+        },
+        aggregation = get_aggregation(2)
     }
 end
 
@@ -308,7 +330,8 @@ function ZergSound.defiler_attack(volume, distance)
         audible_distance_modifier = distance,
 
         filename = "__erm_zerg_hd_assets__/sound/enemies/defiler/attack.ogg",
-        volume = volume
+        volume = volume,
+        aggregation = get_aggregation(2)
     }
 end
 
@@ -330,7 +353,8 @@ function ZergSound.scourge_attack(volume, distance)
                 filename = "__erm_zerg_hd_assets__/sound/enemies/scourge/attack-3.ogg",
                 volume = volume
             },
-        }
+        },
+        aggregation = get_aggregation(2)
     }
 end
 
@@ -348,7 +372,8 @@ function ZergSound.scourge_death(volume, distance)
                 filename = "__erm_zerg_hd_assets__/sound/enemies/scourge/death-1.ogg",
                 volume = volume
             }
-        }
+        },
+        aggregation = get_aggregation(2)
     }
 end
 
@@ -358,7 +383,8 @@ function ZergSound.queen_snare(volume, distance)
         audible_distance_modifier = distance,
 
         filename = "__erm_zerg_hd_assets__/sound/enemies/queen/snare.ogg",
-        volume = volume
+        volume = volume,
+        aggregation = get_aggregation(2)
     }
 end
 
@@ -368,7 +394,8 @@ function ZergSound.queen_attack(volume, distance)
         audible_distance_modifier = distance,
 
         filename = "__erm_zerg_hd_assets__/sound/enemies/queen/attack.ogg",
-        volume = volume
+        volume = volume,
+        aggregation = get_aggregation(2)
     }
 end
 
