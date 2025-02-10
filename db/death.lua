@@ -71,5 +71,19 @@ return {
                 draw_as_glow = true,
             }
         }
+    },
+    zerg_blood_splash = {
+        explosion = {
+            main = {
+                filename = "__erm_zerg_hd_assets__/graphics/entity/units/death/zerg_unit_blood.png",
+                priority = "extra-high",
+                width = 682,
+                height = 594,
+                frame_count = 12,
+                animation_speed = 0.25,
+                scale = 0.2,
+                draw_as_glow = true                
+            }
+        }
     }
 }

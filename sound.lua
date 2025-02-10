@@ -20,6 +20,7 @@ function ZergSound.enemy_death(name, volume, distance)
     }
 end
 
+--- @deprecated
 function ZergSound.meele_attack(volume, distance)
     distance = distance or 1
     return {
@@ -32,6 +33,37 @@ function ZergSound.meele_attack(volume, distance)
             },
             {
                 filename = "__erm_zerg_hd_assets__/sound/enemies/ultralisk/attack.ogg",
+                volume = volume
+            }
+        },
+        aggregation = get_aggregation(2)
+    }
+end
+
+function ZergSound.ultralisk_attack(volume, distance)
+    distance = distance or 1
+    return {
+        audible_distance_modifier = distance,
+
+        variations = {
+            {
+                filename = "__erm_zerg_hd_assets__/sound/enemies/ultralisk/attack.ogg",
+                volume = volume
+            },
+            {
+                filename = "__erm_zerg_hd_assets__/sound/enemies/ultralisk/attack0.ogg",
+                volume = volume
+            },
+            {
+                filename = "__erm_zerg_hd_assets__/sound/enemies/ultralisk/attack1.ogg",
+                volume = volume
+            },
+            {
+                filename = "__erm_zerg_hd_assets__/sound/enemies/ultralisk/attack2.ogg",
+                volume = volume
+            },
+            {
+                filename = "__erm_zerg_hd_assets__/sound/enemies/ultralisk/attack3.ogg",
                 volume = volume
             }
         },

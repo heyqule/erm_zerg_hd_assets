@@ -1,4 +1,13 @@
 ---------------------------------------------------------------------------------------------------
+Version: 2.0.1
+Date: 2025-02-09
+
+  Changes:
+    - Added AnimationDB.get_layered_animations("death","zerg_blood_splash","explosion")    
+    - Updated Ultralisk sound.
+    - Updated Queen sound.
+
+---------------------------------------------------------------------------------------------------
 Version: 2.0.0
 Date: 2024-11-25
 

@@ -22,6 +22,7 @@ AnimationDB.get_layered_animations("death", "large_rubble", "run")
 AnimationDB.get_layered_animations("death", "small_building", "explosion")
 AnimationDB.get_layered_animations("death", "large_building", "explosion")
 AnimationDB.get_layered_animations("death", "terran_cmd", "explosion")
+AnimationDB.get_layered_animations("death","zerg_blood_splash","explosion")
 
 
 ---- Projectile and Explosions
