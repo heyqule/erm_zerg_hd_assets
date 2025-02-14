@@ -45,6 +45,7 @@ AnimationDB.data = {
         overlord = require("__erm_zerg_hd_assets__/db/units/overlord"),
         queen = require("__erm_zerg_hd_assets__/db/units/queen"),
         scourge = require("__erm_zerg_hd_assets__/db/units/scourge"),
+        parasite = require("__erm_zerg_hd_assets__/db/units/parasite"),
         ultralisk = require("__erm_zerg_hd_assets__/db/units/ultralisk"),
         zergling = require("__erm_zerg_hd_assets__/db/units/zergling"),
     },

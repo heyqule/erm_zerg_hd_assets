@@ -110,6 +110,9 @@ AnimationDB.get_layered_animations("units", "ultralisk", "run")
 AnimationDB.get_layered_animations("units", "ultralisk", "attack")
 AnimationDB.get_single_animation("units", "ultralisk", "corpse")
 
+AnimationDB.get_layered_animations("units", "parasite", "run")
+AnimationDB.get_layered_animations("units", "parasite", "corpse")
+
 AnimationDB.get_layered_animations("units", "zergling", "run")
 AnimationDB.get_layered_animations("units", "zergling", "attack")
 AnimationDB.get_single_animation("units", "zergling", "corpse")
