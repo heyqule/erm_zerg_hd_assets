@@ -1,9 +1,10 @@
 ---------------------------------------------------------------------------------------------------
 Version: 2.0.3
-Date: 2025-03-??
+Date: 2025-04-??
 
   Changes:
     - Added Larva egg item graphics
+    - Added Extractor graphics. (not included in AnimationDB because the geysers require special treatment)
 
 ---------------------------------------------------------------------------------------------------
 Version: 2.0.2
