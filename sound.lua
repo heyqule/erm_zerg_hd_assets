@@ -431,4 +431,22 @@ function ZergSound.queen_attack(volume, distance)
     }
 end
 
+function ZergSound.nydus_scream(volume, distance)
+    distance = distance or 1
+    return {
+        audible_distance_modifier = distance,
+        variations = {
+            {
+                filename = "__erm_zerg_hd_assets__/sound/nyduswormscream-1.ogg",
+                volume = volume
+            },
+            {
+                filename = "__erm_zerg_hd_assets__/sound/nyduswormscream-2.ogg",
+                volume = volume
+            }  
+        },
+        aggregation = get_aggregation(2)
+    }
+end
+
 return ZergSound
